@@ -41,7 +41,7 @@ sleep(randomTime);
  * 循环部分
  */
 
-for(var i = 0;i<999;i++)
+for(var i = 0;i<240;i++)
 {
     click(1644,875);
     
