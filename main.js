@@ -62,7 +62,7 @@ for(var i = 0;i<999;i++)
 
         if(images.findImage(statusImg, jumpImg)!=null)
         {
-            click(2194,64);
+            click(2196,64);
             sleep(1000);
         }
         if(images.findImage(statusImg, continueImg)!=null)
