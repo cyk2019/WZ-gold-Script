@@ -48,8 +48,10 @@ for(var i = 0;i<999;i++)
     var flag = true;
     var continueImg = images.read("/sdcard/ScreenCapture/continue.jpg");
     var jumpImg = images.read("/sdcard/ScreenCapture/jump.jpg");
+    sleep(10000);
+    toast("已经进行了"+i+"场");
     
-    sleep(40000);
+    sleep(30000);
     
     while(flag)
     {
